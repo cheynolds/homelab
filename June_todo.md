@@ -57,9 +57,9 @@
     		- `tar -tf` 	errors out
 	    	- `tar -tif`	errors out
     		- `tar -xf`	errors out
-	    	- 'gunzip'	errors out
-	    - `gzip stdin: unexpected end of file`
-	       tar: Error is not recoverable: exiting now'
+	    	- `gunzip`	errors out
+	    - `gzip stdin: unexpected end of file
+	       tar: Error is not recoverable: exiting now`
 	    - [1] both backups (ALPHA & BRAVO) fail, always on .bif file 
 	    - `/Plex-Media-Server/Library/Application Support/Plex Media Server/Media/localhost/0/{hash}ca.bundle/Contents/Indexes/index-sd.bif`
 	    
