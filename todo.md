@@ -20,8 +20,8 @@
 - [ ] unzip tar files via terminal , tar -xvf
 - [x] copy over /appdata files
 - [x] add backup cache drive
-- [ ] update CRM 
-- [ ] update CRM 
+- [ ] update CRM 1
+- [ ] update CRM 2
 - [x] stop server, add cache drive, add fans
 - [x] ordered 1TB SSD
 - [x] verify ombi.
