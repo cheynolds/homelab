@@ -1,3 +1,3 @@
-# Homelab 
+# cheynolds.homelab
 
-# ToDo List
+# a place for documenting an onsite server installation used for development, and academic purposes. 
