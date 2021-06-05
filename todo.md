@@ -15,16 +15,16 @@
 - [x] change minimum cache level to 1% empty
 - [ ] fix SSL renewal situation with homelab, priority nextcloud
 - [ ] fix duplicati
-- [ ] fix royal.cheynolds.com
+- [ ] fix perfex crm -bravo
 - [ ] fix NZBget
 - [ ] unzip tar files via terminal , tar -xvf
 - [x] copy over /appdata files
 - [x] add backup cache drive
-- [ ] update CRM - make payment for zack for $700 for Tuesday 6/1
-- [ ] update CRM - make unbilled time, 30 minutes for Wednesday 6/2
+- [ ] update CRM 
+- [ ] update CRM 
 - [x] stop server, add cache drive, add fans
 - [x] ordered 1TB SSD
-- [x] verify ombi.cheynolds.com
+- [x] verify ombi.
 - [x] verify app.plex.tv
 - [ ] stop array
 	- [ ] change drive name to identify class (nvme/ssd)
