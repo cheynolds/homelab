@@ -37,30 +37,6 @@
 	- [ ] rename plex-cache-old to backup-appdata
 	- [ ] create share on backup-appdata 
 ---
-# 2021 Week of June 1
-# issues with cache drive (docker images/appdata)
-- loop2 errors in `sys log` -> diagnose as cache related issue
-    - moved `appdata` to secondary drive
-        > install unassigned devices app, mount SSD
-		- on Unraid 6.9, created cache pool
-        > stop plex docker
-	> Use Krusader or `cp` to move plex app data folder (with metadata) to SSD
-        > Edit plex docker and point `appdata` to new location
-        > Make sure SSD is formated to not `ntfs` (`xfs` or something should work fine).
-        
-     - backed up appdata -> `/mnt/user/backups/appdata-backup` -> BACKUP BRAVO
-     - formatted `/mnt/cache` as `xfs`
-     - restored `appdata` using UnRaid CA Backup/Restore -> BACKUP ALPHA (weekly job)
-     	- ends during restoration at similar points for both backups, see [1] below.
-     - manual unpacking tar.gz backup via SSH 
-	    - `gzip: CA_backup.tar.gz: unexpected end of file`
-    		- `tar -tf` 	errors out
-	    	- `tar -tif`	errors out
-    		- `tar -xf`	errors out
-	    	- `gunzip`	errors out
-	    - `gzip stdin: unexpected end of file
-	       tar: Error is not recoverable: exiting now`
-	    - [1] both backups (ALPHA & BRAVO) fail, always on .bif file 
-	    - `/Plex-Media-Server/Library/Application Support/Plex Media Server/Media/localhost/0/{hash}ca.bundle/Contents/Indexes/index-sd.bif`
+
 	    
 
