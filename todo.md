@@ -1,5 +1,5 @@
 # homelab
-## TODO
+## TODO June 2021
 - [ ] add pfsense router and move dream machine pro to inside network
 - [x] fix plex
 - [ ] fix pi hole
