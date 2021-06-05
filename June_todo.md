@@ -50,7 +50,7 @@
         
      - backed up appdata -> `/mnt/user/backups/appdata-backup` -> BACKUP BRAVO
      - formatted `/mnt/cache` as `xfs`
-     - restored appdata using UnRaid CA Backup/Restore -> BACKUP ALPHA (weekly job)
+     - restored `appdata` using UnRaid CA Backup/Restore -> BACKUP ALPHA (weekly job)
      	- ends during restoration at similar points for both backups, see [1] below.
      - manual unpacking tar.gz backup via SSH 
 	    - `gzip: CA_backup.tar.gz: unexpected end of file`
