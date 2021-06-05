@@ -39,7 +39,7 @@
 ---
 # 2021 Week of June 1
 # issues with cache drive (docker images/appdata)
-    - loop2 errors in sys log -> diagnose as cache related issue
+- loop2 errors in sys log -> diagnose as cache related issue
     - moved appdata to secondary drive
         > install unassigned devices app, mount SSD
 		- on Unraid 6.9, created cache pool
